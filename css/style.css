@@ -1,0 +1,202 @@
+/* reset */
+/* main variables */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  background-color: #FFF;
+  height: 100%;
+  line-height: 1;
+  position: relative;
+  font-size: 1.1 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/*MAIN*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-width: 0px;
+  padding: 0px;
+  margin: 0px; }
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none; }
+
+input,
+textarea {
+  color: #333;
+  font-family: Arial, sans-serif;
+  outline: none;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none; }
+
+input[type="button"],
+input[type="submit"],
+button {
+  cursor: pointer; }
+
+td {
+  margin: 0px;
+  padding: 0px; }
+
+form {
+  padding: 0px;
+  margin: 0px; }
+
+a {
+  color: #100da9;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+a,
+span,
+div,
+button {
+  outline: none !important; }
+
+input[type=submit],
+input[type=button],
+button {
+  -webkit-appearance: none;
+  outline: none; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.clearfix:after,
+.wrapper:after,
+.row:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff; }
+
+html {
+  font-size: 16px; }
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+button, input {
+  border: none; }
+
+@font-face {
+  font-family: 'GothamPro Black';
+  src: url("../fonts/GothamPro-Black.eot");
+  src: local("Gotham Pro Black"), local("GothamPro-Black"), url("../fonts/GothamPro-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamPro-Black.woff") format("woff"), url("../fonts/GothamPro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+.accordion {
+  margin-bottom: 70px; }
+
+.accordion__item-head {
+  font: 55px 'GothamPro Black';
+  color: #363636;
+  margin-bottom: 45px; }
+
+.accordion__inner-title {
+  color: #363636;
+  font: 900 16px 'Roboto';
+  margin-bottom: 35px; }
+
+.accordion__inner-item {
+  margin-bottom: 30px; }
+
+.accordion__content-item {
+  color: #363636;
+  font: 300 16px 'Roboto';
+  margin-bottom: 15px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr; }
+
+.customers__review-head {
+  font: 50px 'GothamPro Black';
+  color: #363636;
+  margin-bottom: 45px; }
+
+.customers__review-desc {
+  font: 300 18px 'Roboto';
+  line-height: 1.8;
+  margin-bottom: 45px;
+  color: #363636; }
+  .customers__review-desc span {
+    font-weight: 500; }
+
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font: 12px 'GothamPro Black';
+  color: #fff;
+  padding: 25px 40px;
+  background-color: #1c7fff; }
